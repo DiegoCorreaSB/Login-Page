@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="App.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main id="home-main">
+        <section id="welcome-section">
+            <img src="public/logo-preta-UserBase.png" alt="Logo User Base" />
+            <h1>Bem Vindo ao UserBase</h1>
+            <p>Faça login para continuar</p>
+        </section>
+
+        <section id="login-section">
+            <form action="#">
+                <article class="input-group">
+                    <label for="username">usuário</label>
+                    <input type="text" id="username" name="username" required placeholder='Usuário ou email' />
+                </article>
+                <article class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required placeholder='senha' />
+                </article>
+                <button type="submit" id='btn-entrar'>Entrar</button>
+                <article class="links">
+                    <a href="/src/pages/RedefinirSenha.html">Esqueceu a senha?</a>
+                    <a href="/src/pages/register.html">Registra-se</a>
+                </article>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 User Base. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
